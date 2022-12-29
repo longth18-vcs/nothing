@@ -185,7 +185,7 @@ if __name__ == "__main__":
     )
     
     try:
-        link = str("https://www.tiktok.com/@annie_hii14/video/7180735640735206682")
+        link = str("https://vt.tiktok.com/ZS86YBBJL/")
         __aweme_id = str(
             re.findall(r"(\d{18,19})", link)[0]
             if len(re.findall(r"(\d{18,19})", link)) == 1
