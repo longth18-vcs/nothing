@@ -191,7 +191,7 @@ if __name__ == "__main__":
             if len(re.findall(r"(\d{18,19})", link)) == 1
             else re.findall(
                 r"(\d{18,19})",
-                requests.head(link, allow_redirects=True, timeout=1).url
+                requests.head(link, allow_redirects=True, timeout=5).url
             )[0]
         )
     except:
